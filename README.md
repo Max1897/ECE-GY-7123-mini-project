@@ -8,6 +8,6 @@ Other to-dos:
 1. adding path to model. As [this](https://github.com/mayankpoddar/ResNet/blob/main/project1_model.py) line 53 so that trained model can be kept.
 
 
-References:
+References:     
 https://github.com/wikibook/keras/blob/master/chapter2-deep-networks/resnet-cifar10-2.2.1.py   
 https://github.com/mayankpoddar/ResNet/blob/main/project1_model.py    
