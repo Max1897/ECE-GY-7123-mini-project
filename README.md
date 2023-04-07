@@ -7,7 +7,16 @@ Current work:
 Other to-dos:  
 1. adding path to model. As [this](https://github.com/mayankpoddar/ResNet/blob/main/project1_model.py) line 53 so that trained model can be kept.
 
-
 References:     
 https://github.com/wikibook/keras/blob/master/chapter2-deep-networks/resnet-cifar10-2.2.1.py   
-https://github.com/mayankpoddar/ResNet/blob/main/project1_model.py    
+https://github.com/mayankpoddar/ResNet/blob/main/project1_model.py  
+
+-------------------------------------------------------------------------------------------------------------
+
+The most important thing for this mini-project is tunning the hyper parameter. Here are some hyper parameters that we can tune:
+
+- Ci, the number of channels in the i th layer.
+- Fi, the filter size in the i th layer
+- Ki, the kernel size in the i th skip connection
+- P, the pool size in the average pool layer  
+
