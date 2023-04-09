@@ -86,17 +86,24 @@ low_speed_lr_decay should set higher.
 
 Compare Optimizer: **SGD** vs **Adams**
 
-SGD parameters setting
+SGD Parameters setting
 
-- 
+- WEIGHT_DECAY
+- MOMENTUM
+- DAMPENING
+- LEARNING RATE
 
-Adams parameters setting:
+Adams Parameters setting:
 
-- 
+- WEIGHT_DECAY
+- LEARNING RATE
+- PARAMS
 
 -------------------------------------------------------------
 
+**Step Five:**
 
+Compare ResNet 18 with ResNet 34
 
 
 
