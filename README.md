@@ -31,5 +31,40 @@ Here are the things we can add to our model:
 
 ## **Method Design for Tuning:**
 
+**Step One:**
+
+The **First** parameter we tune is the **Channel Size**:
+
+**Four** Channel Size numbers will be tested in:
+
+32 (Original) --->	64 --->	**42 (Best)**	--->	25
+
+- Plot the 4 graphs
+- Compare the results
+
+
+
+**Step Two:**
+
+The Second parameter we tune is the **Filter Size**:
+
+The two parameters we need to tune is: **Padding** and **Kernel_Size**
+
+Three sets will be tested:
+
+[padding = 1, padding = 1, kernel_size = 3]
+
+**[padding = 2, padding = 2, kernel_size = 5] (Best)**
+
+[padding = 3, padding = 3, kernel_size = 7]
+
+
+
+**Step Three:**
+
+
+
+
+
 
 
