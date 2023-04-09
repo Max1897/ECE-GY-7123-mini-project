@@ -76,9 +76,29 @@ else:
 lr *= lr_decay
 ```
 
-high_speed_lr_decay should set lower
+high_speed_lr_decay should set lower.
 
-low_speed_lr_decay should set higher
+low_speed_lr_decay should set higher.
+
+---------------------------------------------------------------------
+
+**Step Four:**
+
+Compare Optimizer: **SGD** vs **Adams**
+
+SGD parameters setting
+
+- 
+
+Adams parameters setting:
+
+- 
+
+-------------------------------------------------------------
+
+
+
+
 
 
 
