@@ -29,5 +29,7 @@ Here are the things we can add to our model:
   and number of parameters  
 - Any relevant citations  
 
-Method Design for Tuning:
+## **Method Design for Tuning:**
+
+
 
