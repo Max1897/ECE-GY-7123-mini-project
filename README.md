@@ -29,6 +29,8 @@ Here are the things we can add to our model:
   and number of parameters  
 - Any relevant citations  
 
+(Important things below)
+
 ## **Method Design for Tuning:**
 
 **Step One:**
@@ -60,7 +62,25 @@ Three sets will be tested:
 
 
 
-**Step Three:**
+**Step Three (important!!!):**
+
+Add a **Learning Rate Decay** parameter for tuning the Learning Rate with two other parameters: **high_speed_lr_decay** and **low_speed_lr_decay**
+
+Here is the Basic Coding Logic for Tuning Learning Rate:
+
+```python
+if lr > 0.003:
+    lr_decay = high_speed_lr_decay
+else:
+    lr_decay = low_speed_lr_decay
+lr *= lr_decay
+```
+
+high_speed_lr_decay should be set lower
+
+low_speed_lr_decay should be set higher
+
+
 
 
 
