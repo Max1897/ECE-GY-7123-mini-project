@@ -41,7 +41,7 @@ The **First** parameter we tune is the **Channel Size**:
 
 32 (Original) --->	64 --->	**42 (Best)**	--->	25
 
-- Plot the 4 graphs
+- Plot the 4 graphs (finished)
 - Compare the results
 
 ---------------------------------------------------------------------
@@ -58,7 +58,9 @@ Three sets will be tested:
 
 **[padding = 2, padding = 2, kernel_size = 5] (Best)**
 
-[padding = 3, padding = 3, kernel_size = 7]
+[padding = 3, padding = 3, kernel_size = 7]   
+
+- Plot the graph (finished)
 
 ---------------------------------------------------------------------
 
@@ -79,6 +81,7 @@ lr *= lr_decay
 high_speed_lr_decay should set lower.
 
 low_speed_lr_decay should set higher.
+
 
 ---------------------------------------------------------------------
 
