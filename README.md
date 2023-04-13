@@ -1,7 +1,6 @@
 # ECE-GY-7123-mini-project
 References:     
-https://github.com/wikibook/keras/blob/master/chapter2-deep-networks/resnet-cifar10-2.2.1.py   
-https://github.com/mayankpoddar/ResNet/blob/main/project1_model.py  
+
 
 -------------------------------------------------------------------------------------------------------------
 
